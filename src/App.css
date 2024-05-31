@@ -1,0 +1,46 @@
+/* 
+
+////// title //////
+
+.reddit-mono-<uniquifier> {
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+////// corp //////
+
+
+  .suwannaphum-thin {
+  font-family: "Suwannaphum", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.suwannaphum-light {
+  font-family: "Suwannaphum", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.suwannaphum-regular {
+  font-family: "Suwannaphum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.suwannaphum-bold {
+  font-family: "Suwannaphum", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.suwannaphum-black {
+  font-family: "Suwannaphum", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+} */ 
+

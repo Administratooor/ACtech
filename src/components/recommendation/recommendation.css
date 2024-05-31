@@ -1,0 +1,96 @@
+.recommendationImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 1px solid rgb(198, 198, 198);
+  border-bottom: 1px solid rgb(198, 198, 198);
+  gap: 10%;
+  margin-top: 40vh;
+  overflow: hidden;
+  padding: 50px;
+
+}
+
+.recommendationImgDiv {
+  padding: 30px;
+  width: 90%;
+  display: flex;
+  gap: 3%;
+  margin: 10px;
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 5px;
+  background-color: #4a4a4a;
+}
+
+.recommendationCard {
+      width: 30%;
+}
+
+.recommendationCardHeader {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+}
+
+.headerRecommendation {
+      display: flex;
+      align-items: center;
+      
+}
+
+.headerRecommendation > p {
+      background-color: rgb(250, 231, 61) !important;
+      padding: 2px !important;
+      border: none !important;
+      width: 35%;
+      text-align: center;
+}
+
+h5, h6 {
+      width: 65px;
+      color: rgb(239, 239, 239);
+      margin: 0;
+      margin-right: 10px;
+      font-family: "Suwannaphum", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: small;
+      text-align: right;
+}
+
+h6 {
+      width: 99%;
+      text-align: left;
+      font-weight: 300;
+      padding-bottom: 10%;
+      font-family: "Reddit Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      color: aliceblue;
+}
+
+.recommendationImg p {
+      font-family: "Reddit Mono", monospace;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 14px;
+      
+  margin: 0;
+  padding: 20px;
+  border: 1px solid rgb(198, 198, 198);
+  color: black;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.headerRecommendation p {
+      width: 130px;
+}
+
+
+.stars {
+  width: 50px;
+  height: 20px;
+}

@@ -1,0 +1,18 @@
+.footer {
+      margin-top: 20vh;
+      padding: 30px;
+      height: 40vh;
+      background-color: #000000b5;
+}
+
+footer li {
+      color: aliceblue;
+      width: 20%;
+}
+
+h4 {
+      font-family: "Suwannaphum", serif;
+      font-weight: 200;
+      font-style: normal;
+      font-size: large;
+}
