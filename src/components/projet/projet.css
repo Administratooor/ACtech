@@ -1,0 +1,25 @@
+.accomodation{
+      margin: 30vh auto;
+      width: 60%;
+      background-color: rgba(14, 14, 14, 0.107);
+      padding: 30px;
+      border-radius: 3px;
+}
+.accomodation_collapse_about {
+      margin: 1vh auto;
+      width: 60%;
+}
+
+@media screen and (max-width: 767px) {
+      .accomodation_collapse {
+            flex-direction: column;
+            gap: 20px;
+            margin: 20px auto;
+      }
+}
+
+@media screen and (min-width: 767px) {
+      .accomodation_collapse_about {
+            width: 90%;
+      }
+}

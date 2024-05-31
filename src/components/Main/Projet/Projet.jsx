@@ -213,9 +213,10 @@ export default function Projet() {
               <div className="projetRightCardImgIcon">
               <img className="projetImg" src={kasaImg} alt="Piquante project" />
               <div className="iconCard">
-                <img className="github" src={githubIcon} alt="GitHub" />
-                <img className="github" src={javascriptIcon} alt="javascriptIcon" />
-                <img className="github" src={framework} alt="framework" />
+                <img className="icon" src={icon} alt="icon" />
+                <img className="icon" src={icon1} alt="icon" />
+                <img className="icon" src={icon2} alt="icon" />
+                <img className="icon" src={icon3} alt="icon" />
               </div>
 
               </div>
