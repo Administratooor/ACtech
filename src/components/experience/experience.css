@@ -1,93 +1,62 @@
-section {
-  box-sizing: border-box;
-  width: 40%;
-  overflow: hidden;
-    }
 
-    
 
-    .sectionExperience {
-      width: 100%;
-      background-color: #fafafa;
-    }
-    
-    /* section:nth-child(3) {
-      background: #1c1c1c;
-    }
-     */
-    section span {
-      display: block;
-      transform: translateX(-100px);
-      opacity: 0;
-    }
+.sectionExperience {
+  width: 100%;
+
+}
+section span {
+  display: block;
+  transform: translateX(-100px);
+  opacity: 0;
+}
 
 .experienceSection {
-      width: 100%;
+  width: 100%;
+  
 }
 
 .experienceMain {
   display: flex;
   flex-direction: row;
   width: 80%;
+  height: 100vh;
   margin: 25vh 0 0 0;
   justify-content: center;
-  
+  background-image: url("../../assets/xpAc.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-    .experienceMain :nth-child(1) {
-      background-color: #fafafa;
-      color: black;
-      width: 40%;
-      text-align: center;
-      font-family: "Reddit Mono", monospace;
-      font-optical-sizing: auto;
-      font-weight: 100;
-      font-size: 38px;
-      font-style: normal;
-      transition: 0.2s all ease-in-out;
-    }
 
-    .experienceMain :nth-child(2) {
-      background-color: #c0c82d;
-      color: black;
-      width: 40%;
-      text-align: center;
-      font-family: "Reddit Mono", monospace;
-      font-optical-sizing: auto;
-      font-weight: 100;
-      font-size: 38px;
-      font-style: normal;
-    }
 
-    .xpImg {
-      width: 30%;
-      border: 1px solid #fdffe3;
-    }
+.experienceMainDescription {
+  width: 100%;
+}
+.experienceMainDescription p {
+  margin: 0;
+    margin-right: 20px;
+    padding: 30px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: rgba(116, 116, 116, 0.227);
+    border: solid 1px rgb(173, 173, 173);
+}
 
-    .experienceMainDescription {
-      width: 85%;
-    }
-    .experienceMainDescription p {
-      margin: 5px;
-      padding-right: 10px;
-      border-right: solid 2px rgb(141, 141, 141);
-    }
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
 
-    ul {
-      list-style-type: none;
-      display: flex;
-      margin: 0;
-    }
-
-    li {
-      display: flex;
-      font-family: "Reddit Mono", monospace;
-      font-size: small;
-      font-weight: 300;
-      color: black;
-      flex-direction: column;
-    }
-
-.rg {
-  width: 70px;
+li {
+  display: flex;
+  font-family: "Reddit Mono", monospace;
+  font-size: small;
+  font-weight: 300;
+  color: black;
+  flex-direction: column;
+  width: 35%;
 }
