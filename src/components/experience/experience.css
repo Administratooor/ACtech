@@ -19,7 +19,7 @@ section span {
 
     height: 50vh;
     margin: 20vh 0 0 0;
-    background-image: url(/ACtech/src/assets/xpAc.gif);
+    background-image: url("/ACtech/src/assets/xpAc.gif");
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: right;

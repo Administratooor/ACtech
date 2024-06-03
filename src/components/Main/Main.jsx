@@ -1,8 +1,6 @@
 import { useRef, useState, useEffect } from "react";
 import { useInView } from "framer-motion";
 import "../Main/main.css";
-import github from "../../assets/assetsContact/github.png";
-import linkedin from "../../assets/assetsContact/linkedin.png";
 
 function Section({ children }) {
   const ref = useRef(null);
