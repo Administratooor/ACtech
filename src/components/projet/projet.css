@@ -1,4 +1,10 @@
 
+main {
+      background-image: url(/ACtech/src/assets/fontProjet.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: bottom;
+}
 
 .accomodation{
       display: flex;
@@ -7,10 +13,7 @@
       overflow: hidden;
       flex-direction: row;
       flex-wrap: wrap;
-background-image: url("../../assets/fontProjet.svg") ;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+
 }
 .accomodation_collapse_about {
       width: 70%;

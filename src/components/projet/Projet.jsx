@@ -4,10 +4,10 @@ import "../projet/projet.css";
 
 export default function Projet() {
   return (
-    <>
-      <p id="realisations" className="accomodationP">
+    <main>
+ <p id="realisations" className="accomodationP">
         {" "}
-        Projets et Réalisations
+        PROJETS ET REALISATIONS
       </p>
       <p className="accomodationPChildren">
         Un cours résumé des différents projets que j'ai pu réaliser. En tant que
@@ -38,6 +38,6 @@ export default function Projet() {
           </div>
         ))}
       </div>
-    </>
+    </main>
   );
 }

@@ -1,18 +1,26 @@
 .collapse {
       display: flex;
-      gap: 1%;
       align-items: center;
       flex-wrap: wrap;
       flex-direction: row;
+      border-bottom: 2px solid rgba(136, 136, 136, 0.192);
+      padding: 5px;
 }
 
 
 .collapse_title {
-     color: #f7f7f7;
-      background-color: #515151;
+      color: #ffffff;
+      background-color: #515151ad;
       border-radius: 5px;
       padding: 10px 20px;
-      width: 150px;
+      width: 100px;
+      transition: all 0.2s ease-out;
+      font-weight: 600;
+      font-size: 1em;
+}
+.collapse_title:hover {
+      color: #000000c2;
+      background-color: rgba(19, 19, 19, 0.081);
 }
 
 .accomodation_collapse_about {
@@ -21,10 +29,7 @@
 }
 
 @media screen and (min-width: 767px) {
-      .collapse_title {
-      
-            font-weight: 600;
-      }
+ 
 }
 
 @media screen and (min-width: 767px) {
@@ -39,8 +44,8 @@
       width: 30px;
       height: 30px;
       margin-left: 20px;
-      animation: moove 2s  infinite;
       cursor:pointer;
+          
 
 
 }.arrow_up {
@@ -54,29 +59,30 @@
 
 @keyframes moove {
       0%{
-            transform: translateX(-20px) rotate(180deg);
+            transform: translateX(-20px) rotate(150deg);
       }
       50% {
-            transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(180deg);
       }
       100% {
-            transform: translateX(-20px)rotate(180deg);
+            transform: translateX(-20px)rotate(150deg);
       }
 }
 
 .collapse_content {
       display: flex;
       padding: 30px;
+      justify-content: space-around;
 }
 
 .collapse_text {
       display: flex;
       flex-direction: column;
-      width: 95%;
+      width: 35%;
+      gap: 5%;
       padding-top: 30px;
       color: rgb(56, 56, 56);
       align-items: flex-start;
-      justify-content: center;
 }
 
 .iconCard {

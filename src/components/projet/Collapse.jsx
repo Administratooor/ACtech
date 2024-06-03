@@ -28,9 +28,7 @@ export default function Collapse({
         {/* On surveille le click sur notre élément et ont déclenche la
                   fonction toggleCollapse */}
         <h3 className="collapse_title" >
-          {/* Propriété passée au composant  */}
           {title}
-          {/* On définie notre class en fonction de la valeur de  l'état */}
          </h3>{" "}<img
           className={`arrow ${isCollapsed ? "arrow_up" : "arrow_down"}`}
           src={arrow}onClick={toggleCollapse}
