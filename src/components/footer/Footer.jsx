@@ -11,6 +11,7 @@ export default function Footer() {
           <li>Mon profil</li>
           <li>Mes compétences</li>
           <li>Ou je suis ?</li>
+          <p>test</p>
         </ul>
       </div>
     </footer>
