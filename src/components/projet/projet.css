@@ -1,5 +1,7 @@
 
 main {
+      margin-top: 10vh;
+      padding-top: 20vh;
      background-image: url(/ACtech/src/assets/fontProjet.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +31,7 @@ main {
      font-style: normal;
 }
 
-.accomodationPChildren {color: black;
+.accomodationPChildren, .acommodationExpérience {color: black;
       color: black;
       font-family: "Reddit Mono", monospace;
       margin: 20px 50px;

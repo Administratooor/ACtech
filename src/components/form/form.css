@@ -1,7 +1,7 @@
 form {
   background-image: url("../../assets//assetsContact/contact.gif");
-  background-color: #4a4a4a;
-  width: 60%;
+  background-color: #bbbbbb58;
+  width: 100%;
   background-repeat: no-repeat;
   border-radius: 5px;
   background-size: 10%;
@@ -34,15 +34,16 @@ form {
 }
 
 form label {
-  color: #fafafa;
+  color: #37373773;
   width: 20%;
   text-align: start;
   font-family: "Suwannaphum", serif;
   font-weight: 400;
   font-style: normal;
 }
-#choice ,form input,
-textarea{
+#choice,
+form input,
+textarea {
   background-color: #fafafa;
   border: none;
   border-radius: 5px;
@@ -57,43 +58,36 @@ form textarea {
   max-height: 150px;
 }
 
-.FormP {
-  font-size: 18px;
-color: #000000dd;
-}
-
 #choice {
   color: #0000003d;
 }
 
 .customOption {
-      border: none;
+  border: none;
 }
 
-
 .sub {
-      /* Styles par défaut du bouton */
-      padding: 20px 30px;
-      margin: 0;
-      width: 30%;
-      color:  #000000b5;
-      border: 1px solid black;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-    
-.sub:hover {
-      width: 40%;
-      background-color: #fafafa;
-      color: #000000b5;
-    }
-    
-    .sub.clicked {
-      /* Styles appliqués lorsque le bouton est cliqué */
-      background-color: #3275539e;
-      color: #fafafa;
-    }
+  /* Styles par défaut du bouton */
+  padding: 20px 30px;
+  margin: 0;
+  width: 30%;
+  color: #000000b5;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
+.sub:hover {
+  width: 40%;
+  background-color: #fafafa;
+  color: #000000b5;
+}
+
+.sub.clicked {
+  /* Styles appliqués lorsque le bouton est cliqué */
+  background-color: #3275539e;
+  color: #fafafa;
+}
 
 .formPosition {
   display: flex;
@@ -106,7 +100,7 @@ color: #000000dd;
 }
 
 form p {
-  color:#fafafa;
+  color: #252525;
   font-family: "Reddit Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 100;
@@ -117,7 +111,6 @@ form p {
 .iconForm {
   width: 20px;
 }
-
 
 input[type="text"]:not(:placeholder-shown),
 input[type="email"]:not(:placeholder-shown),

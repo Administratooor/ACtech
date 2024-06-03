@@ -29,7 +29,7 @@ export default function Experience() {
       <Section>
         <div className="experienceMain">
           <p className="accomodationP">EXPERIENCE</p>
-          <p className="accomodationPChildren">
+          <p className=" acommodationExpérience">
             Un cours résumé des différents projets que j'ai pu réaliser. En tant
             que
             <b> développeur Fullstack</b> , j'ai réalisé une variété de projets

@@ -39,9 +39,7 @@ export default function Form() {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <p>SEND US</p>
-      <p>MESSAGE</p>
-
+      <p>SEND US MESSAGE</p>
       <div className="form">
         <div className="FormChoice">
           <div className="formSelect">

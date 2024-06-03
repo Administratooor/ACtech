@@ -2,7 +2,7 @@
 
 .sectionExperience {
   width: 100%;
-
+overflow: hidden;
 }
 section span {
   display: block;
@@ -16,15 +16,13 @@ section span {
 }
 
 .experienceMain {
-  display: flex;
-  flex-direction: row;
-  width: 80%;
-  height: 100vh;
-  margin: 25vh 0 0 0;
-  justify-content: center;
-  background-image: url("../../assets/xpAc.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+    height: 50vh;
+    margin: 20vh 0 0 0;
+    background-image: url(/ACtech/src/assets/xpAc.gif);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
 }
 
 
@@ -41,6 +39,8 @@ section span {
     background-color: rgba(116, 116, 116, 0.227);
     border: solid 1px rgb(173, 173, 173);
 }
+
+
 
 ul {
   list-style-type: none;
