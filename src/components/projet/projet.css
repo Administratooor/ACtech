@@ -1,13 +1,38 @@
+
+
 .accomodation{
-      margin: 30vh auto;
-      width: 60%;
-      background-color: rgba(14, 14, 14, 0.107);
+      display: flex;
       padding: 30px;
       border-radius: 3px;
+      overflow: hidden;
+      flex-direction: row;
+      flex-wrap: wrap;
+background-image: url("../../assets/fontProjet.svg") ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
 }
 .accomodation_collapse_about {
-      margin: 1vh auto;
-      width: 60%;
+      width: 70%;
+}
+
+.accomodationP {
+     color: rgb(113, 111, 111) ;
+     margin: 0 30px;
+     margin-top: 20vh;
+     font-size:2em;
+     font-family: "Suwannaphum", serif;
+     font-weight: 300;
+     font-style: normal;
+}
+
+.accomodationPChildren {color: black;
+      color: black;
+      font-family: "Reddit Mono", monospace;
+      margin: 20px 50px;
+      font-size: 0.7em;
+      font-weight: 300;
+      width: 50%;
 }
 
 @media screen and (max-width: 767px) {
@@ -19,7 +44,5 @@
 }
 
 @media screen and (min-width: 767px) {
-      .accomodation_collapse_about {
-            width: 90%;
-      }
+      
 }

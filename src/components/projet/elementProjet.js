@@ -2,6 +2,7 @@ import booki from "../../assets/gif/booki.png";
 import ohmyfood from "../../assets/gif/ohmyfood.gif";
 import kanap from "../../assets/gif/kanap.gif";
 import piquante from "../../assets/gif/piquante.gif";
+import kasa from "../../assets/gif/kasa.gif";
 import panthere from "../../assets/gif/panthere.gif";
 import htmlIcon from "../../assets/assetsContact/html.png";
 import cssIcon from "../../assets/assetsContact/css.png";
@@ -69,7 +70,7 @@ const elementProjet = [
     text1: "Opérations CRUD de manière sécurisée",
     text2: "Stocker des données de <b>manière sécurisée",
     text3:
-      "Implémenter un<b> modèle logique de données conformément à la réglementation",
+      "Implémenter un modèle logique de données conformément à la réglementation",
       icon:githubIcon,
       icon1:bdd,
       icon2:node,
@@ -87,7 +88,7 @@ const elementProjet = [
       icon:githubIcon,
       icon1:javascriptIcon,
       icon2:framework,
-    photo: piquante,
+    photo: kasa,
   },
 ];
 

@@ -1,70 +1,88 @@
+.collapse {
+      display: flex;
+      gap: 1%;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: row;
+}
+
 
 .collapse_title {
-      display: flex;
-      position: inherit;
-      width: 100%;
-      height: 27px;
-      margin: 0 auto;
-      padding: 5px 0 5px 10px;
-      background-color: #ffffffd6;
-      color: #2c2c2c;
-      font-weight: 500;
-      font-size: 18px;
-      border-radius: 5px 5px 5px 5px;
-      cursor: pointer;
-      align-items: center;
-      justify-content: space-between;
+     color: #f7f7f7;
+      background-color: #515151;
+      border-radius: 5px;
+      padding: 10px 20px;
+      width: 150px;
 }
 
 .accomodation_collapse_about {
-      width: 60%;
-      margin: 0 auto;
+      margin: 1vh auto;
+      width: 95%;
 }
 
 @media screen and (min-width: 767px) {
       .collapse_title {
-            width: 100%;
+      
+            font-weight: 600;
       }
 }
 
 @media screen and (min-width: 767px) {
       .accomodation_collapse_item {
-            width: 50%;
+            width: 40%;
       }
 }
 
-.arrow_up {
-      transform: rotate(0deg);
-      margin-right: 10px;
-      width: 40px;
-}
+
 .arrow_down {
+      transform: rotate(0deg);
+      width: 30px;
+      height: 30px;
+      margin-left: 20px;
+      animation: moove 2s  infinite;
+      cursor:pointer;
+
+
+}.arrow_up {
       transform: rotate(180deg);
-      margin-right: 10px;
-      width: 50px;
+      margin-left: 20px;
+      width: 30px;
+      height: 30px;
+      cursor:pointer;
+      animation: moove 2s  infinite;
+}
+
+@keyframes moove {
+      0%{
+            transform: translateX(-20px) rotate(180deg);
+      }
+      50% {
+            transform: translateX(0) rotate(0deg);
+      }
+      100% {
+            transform: translateX(-20px)rotate(180deg);
+      }
 }
 
 .collapse_content {
-      visibility: visible;
       display: flex;
-      opacity: 1;
-      width: 100%;
-      height: auto;
-
-      margin: 0 auto;
-      color: #2c2c2c;
-      border-radius: 5px 5px 5px 5px;
-      flex-direction: row-reverse;
-      justify-content: space-between;
+      padding: 30px;
 }
 
 .collapse_text {
       display: flex;
       flex-direction: column;
-      gap: 2%;
-      width: 45%;
+      width: 95%;
       padding-top: 30px;
-      
+      color: rgb(56, 56, 56);
+      align-items: flex-start;
+      justify-content: center;
+}
+
+.iconCard {
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .icon{
@@ -85,13 +103,15 @@
       font-optical-sizing: auto;
       font-weight: 400;
       font-style: normal;
-      border-bottom: 2px solid #0000001d;
-
 }
+
+.collapseImg {
+    border-radius: 10px;
+      border: #2c2c2c46 2px solid;
+}
+
 .collapse_content img {
-     width: 50%;
-     height: 350px;
-padding: 30px 0;
+      width: 40%;
 }
 
 @media screen and (min-width: 767px) {

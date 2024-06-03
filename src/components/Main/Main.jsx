@@ -50,29 +50,28 @@ export default function Main() {
   }, [fullText]);
 
   return (
-    <div className="Page" id="main">
-      <div className="left">
-        <Section>
-          <p>ANTHONY C. | DEVELOPPEUR WEB</p>
-          <button>
-            {" "}
-            <a href="http://">Mon Github</a>
-          </button>
-        </Section>
-      </div>
-      <div className="right">
-        <div className="rightText">
-          <h1>{displayedText}</h1>
-          <p>Passionné par le web et les technologies !</p>
-          <div className="rightLink">
-            <a href="#main">Profil</a>
-            <a href="#projet">Collaboration</a>
-            <a href="#sectionExperience">Chemin</a>
-            <a href="#formulaire"> Où me joindre ? </a>
+      <div className="Page" id="main">
+        <div className="left">
+          <Section>
+            <p>ANTHONY C. | DEVELOPPEUR WEB</p>
+            <button>
+              {" "}
+              <a href="http://">Mon Github</a>
+            </button>
+          </Section>
+        </div>
+        <div className="right">
+          <div className="rightText">
+            <h1>{displayedText}</h1>
+            <p>Passionné par le web et les technologies !</p>
+            <div className="rightLink">
+              <a href="#main">Home</a>
+              <a href="#realisation">Projets et Réalisations</a>
+              <a href="#sectionExperience">Vie Pro</a>
+              <a href="#formulaire"> Contact </a>
+            </div>
           </div>
-  
         </div>
       </div>
-    </div>
   );
 }
