@@ -39,17 +39,18 @@ export default function Form() {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <p>SEND US MESSAGE</p>
+      <p className="send">SEND US MESSAGE</p>
       <div className="form">
         <div className="FormChoice">
           <div className="formSelect">
             <p className="FormP">Pourriez-vous m'en dire plus ?</p>
-            <select name="user_choice" id="choice">
+            <select name="user_choice" id="choice" className="choice">
+              
               <option className="customOption" value="Visiteur">Visiteur</option>
               <option className="customOption" value="Recruteur">Recruteur</option>
               <option className="customOption" value="Autre">Autre</option>
             </select>
-            <img className="iconForm" src={sendIcon} alt="Name Icon" />
+           
           </div>
         </div>
         <div className="formPosition">
@@ -67,7 +68,6 @@ export default function Form() {
         </div>
         <div className="formPosition">
           <label htmlFor="message">
-            <img className="iconForm" src={sendIcon} alt="Send Icon" />
           </label>
           <textarea name="message" id="message" placeholder="Message" />
         </div>      <input className={`sub ${formClick}`} type="submit" value="Send" />

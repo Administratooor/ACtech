@@ -28,50 +28,46 @@ export default function Experience() {
     <>
       <Section>
         <div className="experienceMain">
-          <p className="accomodationP">EXPERIENCE</p>
-          <p className=" acommodationExpérience">
-         
-          </p>
+          <h2 className="experienceTitle">EXPERIENCE</h2>
         </div>
         <div className="experienceMainDescription">
           <Section>
             <ul>
               <li>
                 <p>
-                Votre profil est <b>  atypique.</b> Voici ce que disent les personnes que je
-            rencontre !  Dans un premier temps <b>militaire</b>  durant 5ans, j'ai ensuite obtenu un
-            BAC TB2A en architecture à ma sortie , où j'ai également acquis des compétences
-            en <b>DAO</b> .
+                  Votre profil est <strong>atypique.</strong> Voici ce que disent les personnes que je
+                  rencontre ! Dans un premier temps <strong>militaire</strong> durant 5 ans, j'ai ensuite obtenu un
+                  BAC TB2A en architecture à ma sortie, où j'ai également acquis des compétences
+                  en <strong>DAO</strong>.
                 </p>
               </li>
               <li>
                 <p>
-                Par la suite, j'ai pu piloter plusieurs boutique de vétements pour de grande marque, Originaire de la banlieue lilloise, mon parcours en a
-            surpris plus d'un ! Mon chemin n'a pas toujours été bien défini dès
-            le départ, car j'aime voyager, découvrir, apprendre et sortir de ma
-            zone de confort chaque jour.
+                  Par la suite, j'ai pu piloter plusieurs boutiques de vêtements pour de grandes marques. Originaire de la banlieue lilloise, mon parcours en a
+                  surpris plus d'un ! Mon chemin n'a pas toujours été bien défini dès
+                  le départ, car j'aime voyager, découvrir, apprendre et sortir de ma
+                  zone de confort chaque jour.
                 </p>
               </li>
-
               <li>
                 <p>
-                Aujourd'hui, je possède un titre de
-            <b> développeur fullstack JS </b>et j'ai également de l'expérience en tant
-            que <b>technicien système et réseaux.</b>  Travailler dans la Tech a
-            toujours été un  objectif pour moi, car c'est un environnement que je
-            connais bien. Depuis l'âge de 8 ans, avec mon premier ordinateur en
-            main, je bidouillais déjà mes disquettes par curiosité. Cette
-            <b>passion</b> ne m'a jamais quitté et m'a permis de toucher à de nombreux
-            domaines en <b>informatique.</b> Je suis déterminé à continuer d'explorer
-            et de m'épanouir dans ce domaine, en apportant ma <b>créativité, mon
-            leadership et mon enthousiasme</b>  pour relever de nouveaux défis.
+                  Aujourd'hui, je possède un titre de
+                  <strong> développeur fullstack JS </strong>et j'ai également de l'expérience en tant
+                  que <strong>technicien système et réseaux.</strong> Travailler dans la Tech a
+                  toujours été un objectif pour moi, car c'est un environnement que je
+                  connais bien. Depuis l'âge de 8 ans, avec mon premier ordinateur en
+                  main, je bidouillais déjà mes disquettes par curiosité. Cette
+                  <strong> passion</strong> ne m'a jamais quitté et m'a permis de toucher à de nombreux
+                  domaines en <strong>informatique.</strong> Je suis déterminé à continuer d'explorer
+                  et de m'épanouir dans ce domaine, en apportant ma <strong>créativité, mon
+                    leadership et mon enthousiasme</strong> pour relever de nouveaux défis.
                 </p>
               </li>
             </ul>
           </Section>
         </div>
       </Section>
-      <Recommendation></Recommendation>
+      <Recommendation />
     </>
   );
 }

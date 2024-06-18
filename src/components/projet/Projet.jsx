@@ -4,26 +4,25 @@ import "../projet/projet.css";
 
 export default function Projet() {
   return (
-    <main>
- <p id="realisations" className="accomodationP">
-        {" "}
-        PROJETS ET REALISATIONS
-      </p>
-      <p className="accomodationPChildren">
-        Un cours résumé des différents projets que j'ai pu réaliser. En tant que
-        <b> développeur Fullstack</b> , j'ai réalisé une variété de projets qui
-        démontrent mes compétences en <b>JavaScript</b> , tant pour le <b>frontend </b> que pour
-        le <b>backend</b> . J'ai conçu et développé des <b>interfaces web dynamiques et des
-        applications web progressives (PWA)</b>  qui offrent une expérience
-        utilisateur <b>fluide et interactive.</b>  En parallèle, j'ai mis en place des
-        backends <b>robustes et performants</b> , garantissant la <b>fiabilité et
-        l'efficacité des systèmes</b> . Mon expertise en JavaScript me permet de
+    <main className="project-main">
+      <h1 id="realisations" className="project-title">
+        PROJETS ET RÉALISATIONS
+      </h1>
+      <p className="project-description">
+        Un court résumé des différents projets que j'ai pu réaliser. En tant que
+        <strong> développeur Fullstack</strong>, j'ai réalisé une variété de projets qui
+        démontrent mes compétences en <strong>JavaScript</strong>, tant pour le <strong>frontend</strong> que pour
+        le <strong>backend</strong>. J'ai conçu et développé des <strong>interfaces web dynamiques et des
+        applications web progressives (PWA)</strong> qui offrent une expérience
+        utilisateur <strong>fluide et interactive.</strong> En parallèle, j'ai mis en place des
+        backends <strong>robustes et performants</strong>, garantissant la <strong>fiabilité et
+        l'efficacité des systèmes</strong>. Mon expertise en JavaScript me permet de
         créer des solutions complètes, de la conception d'interfaces utilisateur
         attrayantes à la gestion de la logique serveur.
       </p>
-      <div className="accomodation">
+      <div className="project-list">
         {elementProjet.map((data) => (
-          <div className="accomodation_collapse_about" key={data.id}>
+          <div className="project-item" key={data.id}>
             <Collapse
               title={data.projetName}
               text={data.text1}

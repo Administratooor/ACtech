@@ -1,46 +1,40 @@
 form {
-  background-image: url("../../assets//assetsContact/contact.gif");
-  background-color: #bbbbbb58;
-  width: 100%;
+  background-image: url(/ACtech/src/assets/assetsContact/contact.gif);
   background-repeat: no-repeat;
-  border-radius: 5px;
   background-size: 10%;
-  background-position: 10% 20%;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   margin: 50vh auto;
-  padding: 100px 0;
 }
 
 .form {
   display: flex;
   flex-direction: column;
   background-color: #fafafa;
-  width: 40%;
-  height: 70%;
+  width: 50%;
   padding: 20px;
   border-radius: 15px;
+  align-items: center;
+  box-shadow: 3px 4px 3px 5px #95a9ff38;
   justify-content: center;
-  align-items: flex-start;
-  box-shadow: 14px 14px 3px 5px #373737;
 }
 
-.formSelect {
+.formSelect, .FormChoice {
   display: flex;
+  width: 100%;
+  gap: 10%;
+  flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 form label {
-  color: #37373773;
-  width: 20%;
-  text-align: start;
-  font-family: "Suwannaphum", serif;
+  width: 8%;
   font-weight: 400;
   font-style: normal;
 }
+
+
 #choice,
 form input,
 textarea {
@@ -49,17 +43,22 @@ textarea {
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.901);
+  border: 1px solid #a1a6ff;
+  width: 100%;
 }
+
+.choice {
+  width: 40% !important;
+}
+
 form textarea {
-  width: 250px;
   height: 150px;
-  max-width: 330px;
+  max-width: 100%;
   max-height: 150px;
 }
 
 #choice {
-  color: #0000003d;
+  color: #0a0a0a;
 }
 
 .customOption {
@@ -75,6 +74,7 @@ form textarea {
   border: 1px solid black;
   cursor: pointer;
   transition: all 0.3s ease;
+  background-color: #a1a6ff;
 }
 
 .sub:hover {
@@ -85,27 +85,28 @@ form textarea {
 
 .sub.clicked {
   /* Styles appliqués lorsque le bouton est cliqué */
-  background-color: #3275539e;
-  color: #fafafa;
+  background-color: #f9fff3;
 }
 
 .formPosition {
   display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  width: 90%;
-  gap: 5%;
+  width: 100%;
   align-items: center;
-  justify-content: flex-end;
+  flex-direction: column;
 }
 
 form p {
-  color: #252525;
+  color: #0a0a0a;
   font-family: "Reddit Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: 100;
-  font-size: 38px;
+  font-weight: 400;
+  font-size: small;
   font-style: normal;
+}
+
+.send {
+  font-size: xx-large;
+
 }
 
 .iconForm {
@@ -115,10 +116,12 @@ form p {
 input[type="text"]:not(:placeholder-shown),
 input[type="email"]:not(:placeholder-shown),
 textarea:not(:placeholder-shown) {
-  background-color: #252525; /* Couleur de fond lorsque le champ est rempli */
+  background-color: #ecf2ff; /* Couleur de fond lorsque le champ est rempli */
+  color: #0a0a0a;
 }
 
 input::placeholder,
-textarea::placeholder {
-  color: #ccc; /* Couleur des placeholders */
+textarea::placeholder,
+.choice:placeholder {
+  color: #999989; /* Couleur des placeholders */
 }

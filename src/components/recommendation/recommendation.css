@@ -1,87 +1,119 @@
-
-.recommendationImgP {
-      background-color: #4a4a4a;
-}
-
-.recommendationImgDiv {
-  padding: 30px;
-  width: 90%;
-  display: flex;
-  gap: 3%;
-  margin: 10px;
-
-  border-radius: 5px;
-}
-
-.recommendationCard {
+.sectionExperience {
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    section span {
+      display: block;
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    
+    .recommendationImg {
+      width: 100%;
+      margin-top: 10vh;
+    }
+    
+    .accomodationP {
+      text-align: center;
+      font-size: 2.5em;
+      color: rgb(113, 111, 111);
+      font-family: "Suwannaphum", serif;
+      font-weight: 300;
+      margin-bottom: 20px;
+    }
+    
+    .recommendationImgDiv {
+      padding: 30px;
+      width: 100%;
+      display: flex;
+      gap: 3%;
+      margin: 10px;
+      border-radius: 5px;
+      flex-wrap: wrap;
+    }
+    
+    .recommendationCard {
       width: 30%;
-}
-
-.recommendationCardHeader {
+      background-color: #fff;
+      border: 1px solid rgb(198, 198, 198);
+      border-radius: 5px;
+      padding: 20px;
+    }
+    
+    .recommendationCardHeader {
       display: flex;
       justify-content: space-between;
-      flex-direction: row;
-}
-
-.headerRecommendation {
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    
+    .headerRecommendation {
       display: flex;
       align-items: center;
-      
-}
-
-.headerRecommendation > p {
-      background-color: rgb(250, 231, 61) !important;
-      padding: 2px !important;
-      border: none !important;
+    }
+    
+    .headerRecommendation > p {
+      background-color: rgb(250, 231, 61);
+      padding: 2px;
+      border: none;
       width: 35%;
       text-align: center;
-}
-
-h5, h6 {
-      width: 65px;
-      color: #040404;
       margin: 0;
-      margin-right: 10px;
+    }
+    
+    .headerRecommendation h3 {
+      margin: 0;
+      margin-left: 10px;
       font-family: "Suwannaphum", serif;
       font-weight: 400;
-      font-style: normal;
-      font-size: small;
-      text-align: right;
-}
-
-h6 {
-      width: 99%;
-      text-align: left;
-      font-weight: 300;
-      padding-bottom: 10%;
-      font-family: "Reddit Mono", monospace;
-      font-optical-sizing: auto;
-      font-weight: 300;
-      font-style: normal;
+      font-size: 1em;
+    }
+    
+    h4 {
       color: #040404;
-}
-
-.recommendationImg p {
       font-family: "Reddit Mono", monospace;
-      font-optical-sizing: auto;
       font-weight: 300;
-      font-style: normal;
+      margin-bottom: 10px;
+    }
+    
+    .recommendationImg p {
+      font-family: "Reddit Mono", monospace;
+      font-weight: 300;
       font-size: 14px;
-      
-  margin: 0;
-  padding: 20px;
-  border: 1px solid rgb(198, 198, 198);
-  color: black;
-  border-radius: 5px;
-  background-color: rgb(255, 255, 255);
-}
-
-.headerRecommendation p {
-      width: 130px;
-}
-
-
-.stars {
+      margin: 0;
+      padding: 20px;
+      border: 1px solid rgb(198, 198, 198);
+      color: black;
+      border-radius: 5px;
+      background-color: rgb(255, 255, 255);
+    }
+    
+    .stars {
       width: 70px;
       height: 30px;
-}
+    }
+    
+    /* Responsive adjustments */
+    @media screen and (max-width: 767px) {
+      .accomodationP {
+        font-size: 2em;
+      }
+    
+      .recommendationImgDiv {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+      }
+    
+      .recommendationCard {
+        width: 90%;
+        margin-bottom: 20px;
+      }
+    
+      .headerRecommendation > p {
+        width: auto;
+        padding: 5px 10px;
+      }
+    }
+    

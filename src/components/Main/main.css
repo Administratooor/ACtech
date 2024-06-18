@@ -1,16 +1,19 @@
-.Page {
+.page-container {
   display: flex;
   height: 120vh;
 }
 
 @media screen and (max-width: 960px) {
-  .Page {
-        flex-direction: column;
+  .page-container {
+    flex-direction: column;
   }
-  .left , .right {width: 90% !important;     margin: 50px auto;}
+  .left-panel, .right-panel {
+    width: 90% !important;
+    margin: 50px auto;
+  }
 }
 
-.left {
+.left-panel {
   width: 70%;
   height: 100vh;
   margin-top: 5vh;
@@ -20,46 +23,46 @@
   background-position: top;
 }
 
-.left > img {
+.left-panel > img {
   width: 100%;
 }
 
-.leftText {
+.section-text {
   width: 50%;
   height: 200px;
   margin-left: 110px;
 }
 
-.leftText button {
+.section-text button {
   border: none;
   border-radius: 10px;
   width: 40%;
   padding: 10px;
   margin: 20px;
   background-color: #000000b5;
-  transition: all 0.3S ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-.leftText button:hover {
- width: 50%;
- background-color: #fafafa;
+.section-text button:hover {
+  width: 50%;
+  background-color: #fafafa;
 }
 
-.leftText button a {
-text-decoration: none;
-color: #ffe6cf;
-font-family: "Suwannaphum", serif;
-font-optical-sizing: auto;
-font-weight: 600;
-font-size: 1rem;
-font-style: normal;
+.section-text button a {
+  text-decoration: none;
+  color: #ffe6cf;
+  font-family: "Suwannaphum", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1rem;
+  font-style: normal;
 }
-.leftText button a:hover {
+
+.section-text button a:hover {
   color: #000000b5;
 }
 
-
-.left p {
+.left-panel p {
   margin-top: 10px;
   width: 100%;
   font-family: "Suwannaphum", serif;
@@ -70,7 +73,7 @@ font-style: normal;
   color: #000000b5;
 }
 
-.right {
+.right-panel {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,11 +81,11 @@ font-style: normal;
   background-color: #fafafa;
 }
 
-.rightText {
+.right-content {
   width: 80%;
 }
 
-.right h1 {
+.right-content h1 {
   font-family: "Suwannaphum", serif;
   font-weight: 500;
   font-style: normal;
@@ -91,7 +94,7 @@ font-style: normal;
   color: rgb(41, 41, 41);
 }
 
-.right p {
+.right-content p {
   font-family: "Reddit Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -100,14 +103,14 @@ font-style: normal;
   color: rgb(41, 41, 41);
 }
 
-.rightLink {
+.nav-links {
   display: flex;
   gap: 10%;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.rightText a {
+.nav-links a {
   width: 30%;
   height: 30%;
   padding: 20px;
@@ -126,26 +129,22 @@ font-style: normal;
   text-align: center;
 }
 
-.rightText a:hover {
+.nav-links a:hover {
   color: #2a2a2a;
   background-color: #fafafa;
 }
 
-.rightSocial {
+.social-links {
   width: 80%;
   display: flex;
   padding-left: 5%;
   gap: 5%;
 }
 
-.github {
+.social-links img {
   width: 20px;
 }
 
-.linkedin {
-  width: 20px;
-}
-
-.sectionMain {
+.section-main {
   background: none !important;
 }

@@ -7,7 +7,7 @@ function Section({ children }) {
   const isInView = useInView(ref, { once: true });
 
   return (
-    <section className="leftText" ref={ref}>
+    <section className="section-text" ref={ref}>
       <span
         style={{
           transform: isInView ? "none" : "translate(200px, -400px)",
@@ -23,7 +23,7 @@ function Section({ children }) {
 
 export default function Main() {
   const [displayedText, setDisplayedText] = useState("");
-  const fullText = "Bbienvenu !  Je suis Anthony C";
+  const fullText = "Bienvenue ! Je suis Anthony C";
 
   useEffect(() => {
     let currentIndex = 0;
@@ -48,28 +48,27 @@ export default function Main() {
   }, [fullText]);
 
   return (
-      <div className="Page" id="main">
-        <div className="left">
-          <Section>
-            <p>ANTHONY C. | DEVELOPPEUR WEB</p>
-            <button>
-              {" "}
-              <a href="http://">Mon Github</a>
-            </button>
-          </Section>
-        </div>
-        <div className="right">
-          <div className="rightText">
-            <h1>{displayedText}</h1>
-            <p>Let's exploring</p>
-            <div className="rightLink">
-              <a href="#main">Home</a>
-              <a href="#realisation">Réalisations</a>
-              <a href="#sectionExperience">Vie Pro</a>
-              <a href="#formulaire"> Contact </a>
-            </div>
-          </div>
+    <div className="page-container" id="main">
+      <div className="left-panel">
+        <Section>
+          <p>ANTHONY C. | DÉVELOPPEUR WEB</p>
+          <button>
+            <a href="http://">Mon Github</a>
+          </button>
+        </Section>
+      </div>
+      <div className="right-panel">
+        <div className="right-content">
+          <h1>{displayedText}</h1>
+          <p>Let's explore</p>
+          <nav className="nav-links">
+            <a href="#main">Home</a>
+            <a href="#realisation">Réalisations</a>
+            <a href="#sectionExperience">Vie Pro</a>
+            <a href="#formulaire">Contact</a>
+          </nav>
         </div>
       </div>
+    </div>
   );
 }
