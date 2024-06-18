@@ -19,7 +19,8 @@
       font-size: 2.5em;
       color: rgb(113, 111, 111);
       font-family: "Suwannaphum", serif;
-      font-weight: 300;
+      font-weight: 700;
+      font-style: normal;
       margin-bottom: 20px;
     }
     
@@ -31,14 +32,19 @@
       margin: 10px;
       border-radius: 5px;
       flex-wrap: wrap;
+      justify-content: center;
     }
     
     .recommendationCard {
-      width: 30%;
+      width: 55%;
       background-color: #fff;
       border: 1px solid rgb(198, 198, 198);
       border-radius: 5px;
       padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10vh;
     }
     
     .recommendationCardHeader {
@@ -54,7 +60,6 @@
     }
     
     .headerRecommendation > p {
-      background-color: rgb(250, 231, 61);
       padding: 2px;
       border: none;
       width: 35%;
@@ -66,14 +71,14 @@
       margin: 0;
       margin-left: 10px;
       font-family: "Suwannaphum", serif;
-      font-weight: 400;
+      font-weight: 500;
       font-size: 1em;
     }
     
     h4 {
       color: #040404;
-      font-family: "Reddit Mono", monospace;
-      font-weight: 300;
+      font-family: "Suwannaphum", serif;
+      font-weight: 700;
       margin-bottom: 10px;
     }
     
@@ -84,9 +89,9 @@
       margin: 0;
       padding: 20px;
       border: 1px solid rgb(198, 198, 198);
-      color: black;
+      color: #ffe6cf;
       border-radius: 5px;
-      background-color: rgb(255, 255, 255);
+      background-color: #4a4a4a;
     }
     
     .stars {

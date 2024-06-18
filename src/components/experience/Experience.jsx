@@ -43,7 +43,7 @@ export default function Experience() {
               </li>
               <li>
                 <p>
-                  Par la suite, j'ai pu piloter plusieurs boutiques de vêtements pour de grandes marques. Originaire de la banlieue lilloise, mon parcours en a
+                  Par la suite, j'ai pu piloter plusieurs boutiques de vêtements pour de <strong>grandes marques</strong>. Originaire de la banlieue <b>lilloise</b>, mon parcours en a
                   surpris plus d'un ! Mon chemin n'a pas toujours été bien défini dès
                   le départ, car j'aime voyager, découvrir, apprendre et sortir de ma
                   zone de confort chaque jour.
@@ -58,7 +58,7 @@ export default function Experience() {
                   connais bien. Depuis l'âge de 8 ans, avec mon premier ordinateur en
                   main, je bidouillais déjà mes disquettes par curiosité. Cette
                   <strong> passion</strong> ne m'a jamais quitté et m'a permis de toucher à de nombreux
-                  domaines en <strong>informatique.</strong> Je suis déterminé à continuer d'explorer
+                 aspects de  <strong>l'informatique.</strong> Je suis déterminé à continuer d'explorer
                   et de m'épanouir dans ce domaine, en apportant ma <strong>créativité, mon
                     leadership et mon enthousiasme</strong> pour relever de nouveaux défis.
                 </p>

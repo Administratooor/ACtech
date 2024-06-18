@@ -16,13 +16,15 @@ section span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  
 }
 
 .experienceTitle {
   color: rgb(113, 111, 111);
   font-size: 2.5em;
   font-family: "Suwannaphum", serif;
-  font-weight: 300;
+  font-weight: 700;
+  font-style: normal;
   text-align: left;
   padding: 20vh;
 }
@@ -30,6 +32,7 @@ section span {
 .experienceMainDescription {
   width: 100%;
   margin-top: 10vh;
+  
 }
 
 .experienceMainDescription p {
@@ -61,7 +64,7 @@ li {
   font-weight: 300;
   color: black;
   flex-direction: column;
-  width: 35%;
+  width: 30%;
   margin: 10px;
 }
 

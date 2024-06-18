@@ -106,7 +106,9 @@ form p {
 
 .send {
   font-size: xx-large;
-
+  font-family: "Suwannaphum", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .iconForm {

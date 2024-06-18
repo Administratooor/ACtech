@@ -55,13 +55,12 @@
         transform: translateX(-20px) rotate(150deg);
       }
     }
-    
     .collapse-content {
       display: flex;
       padding: 30px;
-      justify-content: space-around;
-    }
-    
+      align-items: center;
+      justify-content: space-between;
+  }
     .collapse-content-hidden {
       display: none;
     }
@@ -70,8 +69,6 @@
       display: flex;
       flex-direction: column;
       width: 35%;
-      gap: 5%;
-      padding-top: 30px;
       color: rgb(56, 56, 56);
       align-items: flex-start;
     }
@@ -100,7 +97,18 @@
         gap: 20px;
         margin: 20px auto;
       }
+      .collapse-text {
+            width: 100%;
+            margin: 0;
     }
+
+    .collapse-image {
+      width: 90%;
+  }
+  .collapse-icons {
+      flex-direction: row;
+      justify-content: center;
+  }
     
     @media screen and (min-width: 767px) {
       .collapse-content p {

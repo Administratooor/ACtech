@@ -23,7 +23,7 @@ function Section({ children }) {
 
 export default function Main() {
   const [displayedText, setDisplayedText] = useState("");
-  const fullText = "Bienvenue ! Je suis Anthony C";
+  const fullText = "  Bienvenue ! Je suis Anthony C";
 
   useEffect(() => {
     let currentIndex = 0;
