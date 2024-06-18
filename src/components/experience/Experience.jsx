@@ -30,60 +30,41 @@ export default function Experience() {
         <div className="experienceMain">
           <p className="accomodationP">EXPERIENCE</p>
           <p className=" acommodationExpérience">
-            Un cours résumé des différents projets que j'ai pu réaliser. En tant
-            que
-            <b> développeur Fullstack</b> , j'ai réalisé une variété de projets
-            qui démontrent mes compétences en <b>JavaScript</b> , tant pour le{" "}
-            <b>frontend </b> que pour le <b>backend</b> . J'ai conçu et
-            développé des{" "}
-            <b>
-              interfaces web dynamiques et des applications web progressives
-              (PWA)
-            </b>{" "}
-            qui offrent une expérience utilisateur <b>fluide et interactive.</b>{" "}
-            En parallèle, j'ai mis en place des backends{" "}
-            <b>robustes et performants</b> , garantissant la{" "}
-            <b>fiabilité et l'efficacité des systèmes</b> . Mon expertise en
-            JavaScript me permet de créer des solutions complètes, de la
-            conception d'interfaces utilisateur attrayantes à la gestion de la
-            logique serveur.
+         
           </p>
-          {/* <img className="xpImg" src={sale} alt="" srcset="" /> */}
         </div>
         <div className="experienceMainDescription">
           <Section>
             <ul>
               <li>
                 <p>
-                  Avec 5 ans d'expérience professionnelle et{" "}
-                  <b>26 ans de passion </b> , le support technique n'a plus de
-                  secret pour moi. Ces dernières années, j'ai acquis de solides
-                  compétences en
-                  <b>
-                    {" "}
-                    développement de sites web et de web applications.
-                  </b>{" "}
-                  J'ai également participé à des <b>projets fullstack</b> en
-                  entreprise pour le développement interne.{" "}
+                Votre profil est <b>  atypique.</b> Voici ce que disent les personnes que je
+            rencontre !  Dans un premier temps <b>militaire</b>  durant 5ans, j'ai ensuite obtenu un
+            BAC TB2A en architecture à ma sortie , où j'ai également acquis des compétences
+            en <b>DAO</b> .
                 </p>
               </li>
               <li>
                 <p>
-                  <b>La gestion </b>complète de boutique de vêtement m'a fait
-                  aquérir des compétence clefs ! Notemment la
-                  <b> gestion des équipes, des produits</b> mais surtout la
-                  <b> clientèle et fidélisation.</b> Plusieurs{" "}
-                  <b>grandes enseignes</b> m'ont fait confiance !
+                Par la suite, j'ai pu piloter plusieurs boutique de vétements pour de grande marque, Originaire de la banlieue lilloise, mon parcours en a
+            surpris plus d'un ! Mon chemin n'a pas toujours été bien défini dès
+            le départ, car j'aime voyager, découvrir, apprendre et sortir de ma
+            zone de confort chaque jour.
                 </p>
               </li>
 
               <li>
                 <p>
-                  {" "}
-                  Engagée volontaire de l'armée de terre durant 5 ans au{" "}
-                  <b>3èmes régiment du génie</b>
-                  <b>Sapeur de combat du génie</b> mais également en{" "}
-                  <b> appui</b> des sections de combat.
+                Aujourd'hui, je possède un titre de
+            <b> développeur fullstack JS </b>et j'ai également de l'expérience en tant
+            que <b>technicien système et réseaux.</b>  Travailler dans la Tech a
+            toujours été un  objectif pour moi, car c'est un environnement que je
+            connais bien. Depuis l'âge de 8 ans, avec mon premier ordinateur en
+            main, je bidouillais déjà mes disquettes par curiosité. Cette
+            <b>passion</b> ne m'a jamais quitté et m'a permis de toucher à de nombreux
+            domaines en <b>informatique.</b> Je suis déterminé à continuer d'explorer
+            et de m'épanouir dans ce domaine, en apportant ma <b>créativité, mon
+            leadership et mon enthousiasme</b>  pour relever de nouveaux défis.
                 </p>
               </li>
             </ul>

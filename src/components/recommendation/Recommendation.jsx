@@ -27,7 +27,9 @@ export default function Recommendation() {
   return (
     <>
       <Section>
+        
         <div className="recommendationImg">
+        <h4 className="accomodationP" >MENTION </h4>
           <div className="recommendationImgDiv ">
             <div className="recommendationCard">
               <div className="recommendationCardHeader">

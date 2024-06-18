@@ -15,7 +15,7 @@ export default function Collapse({
   icon3,
 }) {
   // Initialisation de isCollapsed avec use state à true
-  const [isCollapsed, setIsCollapsed] = useState(true);
+  const [isCollapsed, setIsCollapsed] = useState(false);
 
   // Fonction qui inverse la valeur en utilisant le setter setIsCollapsed
   const toggleCollapse = () => {

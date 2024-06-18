@@ -47,7 +47,7 @@
 
 .leftText button a {
 text-decoration: none;
-color: #fafafa;
+color: #ffe6cf;
 font-family: "Suwannaphum", serif;
 font-optical-sizing: auto;
 font-weight: 600;
@@ -86,7 +86,7 @@ font-style: normal;
   font-family: "Suwannaphum", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: large;
+  font-size: xx-large;
   font-optical-sizing: auto;
   color: rgb(41, 41, 41);
 }
@@ -95,7 +95,7 @@ font-style: normal;
   font-family: "Reddit Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: large;
   font-style: normal;
   color: rgb(41, 41, 41);
 }
@@ -109,6 +109,7 @@ font-style: normal;
 
 .rightText a {
   width: 30%;
+  height: 30%;
   padding: 20px;
   margin: 5px;
   border: none;
@@ -118,10 +119,10 @@ font-style: normal;
   text-decoration: none;
   font-family: "Suwannaphum", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-size: 0.9rem;
+  font-weight: 500;
+  font-size: medium;
   font-style: normal;
-  color: #fafafa;
+  color: #ffe6cf;
   text-align: center;
 }
 

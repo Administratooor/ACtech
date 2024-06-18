@@ -31,13 +31,13 @@ main {
      font-style: normal;
 }
 
-.accomodationPChildren, .acommodationExpérience {color: black;
+.accomodationPChildren, .acommodationExpérience {
       color: black;
       font-family: "Reddit Mono", monospace;
       margin: 20px 50px;
-      font-size: 0.7em;
-      font-weight: 300;
+      font-size: small;
       width: 50%;
+
 }
 
 @media screen and (max-width: 767px) {
