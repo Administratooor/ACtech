@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import "../experience/experience.css";
-import sale from "../../assets/xpAc.gif";
+import Xp from "../../assets/xpAc.gif";
 import Recommendation from "../recommendation/Recommendation";
 
 function Section({ children }) {
@@ -29,6 +29,7 @@ export default function Experience() {
       <Section>
         <div className="experienceMain">
           <h2 className="experienceTitle">EXPERIENCE</h2>
+          <img className="experienceImg" src={Xp} alt="" srcset="" />
         </div>
         <div className="experienceMainDescription">
           <Section>

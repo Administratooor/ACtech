@@ -11,12 +11,11 @@ section span {
 
 .experienceMain {
   margin-top: 20vh;
-  height: 50vh;
-  background-image: url(/ACtech/src/assets/xpAc.gif);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  
+  height: 30vh;
+  display: flex;
+  background-color: rgb(229, 216, 255);
+  justify-content: space-between;
+  align-items: center;
 }
 
 .experienceTitle {
@@ -27,6 +26,13 @@ section span {
   font-style: normal;
   text-align: left;
   padding: 20vh;
+  width: 50%;
+  height: 30vh;
+  background-color: rgb(255 161 138);
+}
+
+.experienceImg {
+  width: 100%;
 }
 
 .experienceMainDescription {
